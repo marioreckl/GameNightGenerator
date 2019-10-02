@@ -13,5 +13,7 @@
         public string Name { get; }
         public int Points { get; }
         public int GamesPlayed { get; }
+
+        public double Average => (double)Points / (double)GamesPlayed;
     }
 }
