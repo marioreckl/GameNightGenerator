@@ -35,13 +35,25 @@ namespace GameNightGenerator
         public IEnumerable<ILeaderboard> GetLeaderboards()
         {
             List<ILeaderboard> leaderboards = new List<ILeaderboard>();
-            var gameFiles = new DirectoryInfo(_directory).GetFiles("*", 0);
+            var gameFiles = new DirectoryInfo(_directory).GetFiles("*", 0).Where(x => !x.FullName.Contains("GameAvailability"));
             foreach (var gameFile in gameFiles)
             {
                 leaderboards.Add(GetLeaderboard(gameFile));
                 
             }
             return leaderboards;
+        }
+
+        public string[] GetAvaiableGames()
+        {
+            var availabilityFile = new DirectoryInfo(_directory).GetFiles("GameAvailability.txt", 0).FirstOrDefault();
+            if(availabilityFile == null) {
+                return null;
+            }
+            using (StreamReader sr = new StreamReader(availabilityFile.FullName))
+            {
+                return sr.ReadToEnd().Split();
+            }
         }
     }
 }

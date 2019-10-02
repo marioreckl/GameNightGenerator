@@ -1,4 +1,3 @@
-C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\obj\Debug\netcoreapp2.2\GameNightGenerator.csprojResolveAssemblyReference.cache
 C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\obj\Debug\netcoreapp2.2\GameNightGenerator.csproj.CoreCompileInputs.cache
 C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\obj\Debug\netcoreapp2.2\GameNightGenerator.AssemblyInfoInputs.cache
 C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\obj\Debug\netcoreapp2.2\GameNightGenerator.AssemblyInfo.cs
@@ -9,3 +8,4 @@ C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightG
 C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\bin\Debug\netcoreapp2.2\GameNightGenerator.pdb
 C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\obj\Debug\netcoreapp2.2\GameNightGenerator.dll
 C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\obj\Debug\netcoreapp2.2\GameNightGenerator.pdb
+C:\Users\Mario\Documents\GitHub\GameNightGenerator\GameNightGenerator\GameNightGenerator\obj\Debug\netcoreapp2.2\GameNightGenerator.csprojResolveAssemblyReference.cache
