@@ -5,5 +5,6 @@
         string Name { get; }
         int Points { get; }
         int GamesPlayed { get; }
+        double Average { get; }
     }
 }

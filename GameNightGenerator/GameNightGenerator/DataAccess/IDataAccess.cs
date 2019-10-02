@@ -1,9 +1,10 @@
 ﻿using GameNightGenerator.Data;
+using System.Collections.Generic;
 
 namespace GameNightGenerator
 {
     public interface IDataAccess
     {
-        ILeaderboard GetLeaderboard();
+        IEnumerable<ILeaderboard> GetLeaderboards();
     }
 }
