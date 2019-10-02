@@ -6,5 +6,6 @@ namespace GameNightGenerator
     public interface IDataAccess
     {
         IEnumerable<ILeaderboard> GetLeaderboards();
+        string[] GetAvaiableGames();
     }
 }

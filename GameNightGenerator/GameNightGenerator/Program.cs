@@ -11,8 +11,9 @@ namespace GameNightGenerator
         static void Main(string[] args)
         {
             var textFileAccessor = new TextFileDataAccess(@"C:\Users\Mario\Desktop\HTMLGenerator\HTMLGenerator\Sample");
+            //var randomGame = new RandomGamePicker().GetRandomGame(textFileAccessor);
             var leaderboards = textFileAccessor.GetLeaderboards();
-            var output = new Generator().GenerateHTMLPageFromLeaderBoards(leaderboards);
+            var output = new HTMLGenerator().GenerateHTMLPageFromLeaderBoards(leaderboards);
             Console.Write(output);
             Console.ReadLine();
         }
